@@ -31,8 +31,8 @@ let USER_CONFIG = {
 
 // 播放器映射表
 const PLAYER_MAP = {
-    "lenna": { scheme: "lenna://x-callback-url/play?url=", needEncode: true },
     "SenPlayer": { scheme: "SenPlayer://x-callback-url/play?url=", needEncode: true },
+    "lenna": { scheme: "lenna://x-callback-url/play?url=", needEncode: true },
     "Infuse": { scheme: "infuse://x-callback-url/play?url=", needEncode: true },
     "Fileball": { scheme: "filebox://play?url=", needEncode: true },
     "Alook": { scheme: "Alook://", needEncode: false },
