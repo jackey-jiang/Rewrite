@@ -13,11 +13,11 @@
 
 [Script]
 
-Pear视频解析 = type=http-request, pattern=^https?:\/\/[^\/]+\/api\/(movie\/(LikeUserLikeMovie|DetailInfo)|anime\/DetailRecommend), requires-body=0, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js, argument=player=SenPlayer&scheme=SenPlayer://x-callback-url/play?url=&encode=yes
+Pear视频解析 = type=http-request, pattern=^https?:\/\/[^\/]+\/api\/(movie\/(LikeUserLikeMovie|DetailInfo)|anime\/DetailRecommend), requires-body=0, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js, argument=player=SenPlayer&scheme=SenPlayer://x-callback-url/play?url=&encode=auto
 
-Pear短视频解析 = type=http-request, pattern=^https?:\/\/[^\/]+\/api\/video\/(watch|Detail), requires-body=1, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js, argument=player=SenPlayer&scheme=SenPlayer://x-callback-url/play?url=&encode=yes
+Pear短视频解析 = type=http-request, pattern=^https?:\/\/[^\/]+\/api\/video\/(watch|Detail), requires-body=1, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js, argument=player=SenPlayer&scheme=SenPlayer://x-callback-url/play?url=&encode=auto
 
-Pear磁力下载 = type=http-request, pattern=^https?:\/\/[^\/]+\/api\/download\/MovieWithTorrentInfo, requires-body=0, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js, argument=player=SenPlayer&scheme=SenPlayer://x-callback-url/play?url=&encode=yes
+Pear磁力下载 = type=http-request, pattern=^https?:\/\/[^\/]+\/api\/download\/MovieWithTorrentInfo, requires-body=0, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js, argument=player=SenPlayer&scheme=SenPlayer://x-callback-url/play?url=&encode=auto
 
 PearVIP伪装 = type=http-response, pattern=^https?:\/\/[^\/]+\/api\/(account\/(IndexDetail|IsVip)|cartoon\/VipInfo|download\/CheckDownloadTorrent), requires-body=1, max-size=0, timeout=60, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js
 
