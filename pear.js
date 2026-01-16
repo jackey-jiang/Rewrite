@@ -6,10 +6,10 @@
  * 
  * 2026.01.16
 [rewrite_local]
-^https?:\/\/[^\/]+\/api\/video\/(watch|Detail) url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js
-^https?:\/\/[^\/]+\/api\/(movie\/(LikeUserLikeMovie|DetailInfo)|anime\/DetailRecommend) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js
+^https?:\/\/[^\/]+\/api\/video\/(watch|Detail) url script-request-body https://raw.githubusercontent.com/jackey-jiang/Rewrite/refs/heads/main/pear.js
+^https?:\/\/[^\/]+\/api\/(movie\/(LikeUserLikeMovie|DetailInfo)|anime\/DetailRecommend) url script-request-header https://raw.githubusercontent.com/jackey-jiang/Rewrite/refs/heads/main/pear.js
 ^https?:\/\/[^\/]+\/api\/download\/MovieWithTorrentInfo url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js  
-^https?:\/\/[^\/]+\/api\/(account\/(IndexDetail|IsVip)|cartoon\/VipInfo|download\/CheckDownloadTorrent) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/pear.js
+^https?:\/\/[^\/]+\/api\/(account\/(IndexDetail|IsVip)|cartoon\/VipInfo|download\/CheckDownloadTorrent) url script-response-body https://raw.githubusercontent.com/jackey-jiang/Rewrite/refs/heads/main/pear.js
 ^https?:\/\/[^\/]+\/api\/movie\/ShopProduct url reject-dict
 ^https?:\/\/[^\/]+\/api\/adv\/index url reject-dict
  
